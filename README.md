@@ -12,5 +12,7 @@
     - [D3 Homework 2](Day_003-2_HW.ipynb)
     > 讀取txt 或 網頁資料，切割字串split與用URL顯示圖片
 
- - [D4: EDA：欄位的資料類型介紹及處理]()
+ - [D4: EDA：欄位的資料類型介紹及處理](Day_004_HW.ipynb)
+  > One Hot encoding - pandas.get_dummies([DATA])
+
  - [D5: EDA資料分佈]()
