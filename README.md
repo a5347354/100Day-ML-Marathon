@@ -15,4 +15,5 @@
  - [D4: EDA：欄位的資料類型介紹及處理](Day_004_HW.ipynb)
   > One Hot encoding - pandas.get_dummies([DATA])
 
- - [D5: EDA資料分佈]()
+ - [D5: EDA資料分佈](Day_004_HW.ipynb)
+  > Mean、Median、Sample Standard Deviation、Hist
