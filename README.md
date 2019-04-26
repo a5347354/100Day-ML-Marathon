@@ -20,7 +20,7 @@
 
  - [D6: EDA: Outlier 及處理](Day_006_HW.ipynb)
   > 找出並處理 Outliers、ECDF、直方圖 Histogram
-    * [ECDF Note](/Data Analysis/ECDF/README.md)
+    <br> [ECDF Note](/Data Analysis/ECDF/README.md)
 
  - [D7: 常用的數值取代：中位數與分位數連續數值標準化](Day_007_HW.ipynb)
  - [D8: DataFrame operationData frame merge/常用的 DataFrame 操作](Day_008_HW.ipynb)
