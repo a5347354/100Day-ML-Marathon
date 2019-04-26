@@ -15,5 +15,13 @@
  - [D4: EDA：欄位的資料類型介紹及處理](Day_004_HW.ipynb)
   > One Hot encoding - pandas.get_dummies([DATA])
 
- - [D5: EDA資料分佈](Day_004_HW.ipynb)
+ - [D5: EDA資料分佈](Day_005_HW.ipynb)
   > Mean、Median、Sample Standard Deviation、Hist
+
+ - [D6: EDA: Outlier 及處理](Day_006_HW.ipynb)
+  > 找出並處理 Outliers、ECDF、直方圖 Histogram
+    * [ECDF Note](/Data Analysis/ECDF/README.md)
+
+ - [D7: 常用的數值取代：中位數與分位數連續數值標準化](Day_007_HW.ipynb)
+ - [D8: DataFrame operationData frame merge/常用的 DataFrame 操作](Day_008_HW.ipynb)
+ - [D9: ](Day_009_HW.ipynb)
