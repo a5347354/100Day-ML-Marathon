@@ -23,9 +23,10 @@
     <br> [ECDF Note](/Data Analysis/ECDF/README.md)
 
  - [D7: 常用的數值取代：中位數與分位數連續數值標準化](Day_007_HW.ipynb)
- > 遺漏值未移除計算percentile會有問題、 NAs 以 q50 填補、Normalize function、列出重複最多的數值
+  > 遺漏值未移除計算percentile會有問題、 NAs 以 q50 填補、Normalize function、列出重複最多的數值
 
  - [D8: DataFrame operationData frame merge/常用的 DataFrame 操作](Day_008_HW.ipynb)
- > cut, groupby, apply & lambda
+  > cut, groupby, apply & lambda
 
  - [D9: EDA：correlation相關係數簡介](Day_009_HW.ipynb)
+  > 計算相關係數np.corrcoef、畫出數據點分佈scatter 
