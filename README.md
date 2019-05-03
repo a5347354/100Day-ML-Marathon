@@ -29,4 +29,7 @@
   > cut, groupby, apply & lambda
 
  - [D9: EDA：correlation相關係數簡介](Day_009_HW.ipynb)
-  > 計算相關係數np.corrcoef、畫出數據點分佈scatter 
+  > 計算相關係數np.corrcoef、畫出數據點分佈scatter
+
+ - [D10: EDA from Correlation](Day_010_HW.ipynb)
+  > 計算相關係數np.corrcoef、觀察與其他欄位之分佈圖
