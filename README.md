@@ -26,7 +26,7 @@
   > 遺漏值未移除計算percentile會有問題、 NAs 以 q50 填補、Normalize function、列出重複最多的數值
 
  - [D8: DataFrame operationData frame merge/常用的 DataFrame 操作](Day_008_HW.ipynb)
-  > cut, groupby, apply & lambda
+  > 分群 cut, groupby, apply & lambda
 
  - [D9: EDA：correlation相關係數簡介](Day_009_HW.ipynb)
   > 計算相關係數np.corrcoef、畫出數據點分佈scatter
@@ -35,4 +35,4 @@
   > 計算相關係數np.corrcoef、觀察與其他欄位之分佈圖
 
  - [D11: EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)](Day_011_HW.ipynb)
-  > 計算相關係數np.corrcoef、觀察與其他欄位之分佈圖
+  > KDE圖形比較 seaborn.distplot、barplot
