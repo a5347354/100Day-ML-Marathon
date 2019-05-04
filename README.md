@@ -33,3 +33,6 @@
 
  - [D10: EDA from Correlation](Day_010_HW.ipynb)
   > 計算相關係數np.corrcoef、觀察與其他欄位之分佈圖
+
+ - [D11: EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)](Day_011_HW.ipynb)
+  > 計算相關係數np.corrcoef、觀察與其他欄位之分佈圖

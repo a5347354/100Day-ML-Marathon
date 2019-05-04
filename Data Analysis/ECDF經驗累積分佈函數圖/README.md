@@ -1,5 +1,5 @@
 # Empirical distribution function 經驗累積分佈函數圖
-## 介紹與實作
+## 介紹
 > 用於觀察資料的分布，可顯示所有的數據點．
 > <br>直方圖可以直觀的找到眾數，但在數據量較少的地方無法顯示出來．
 
@@ -16,8 +16,6 @@ from statsmodels.distributions.empirical_distribution import ECDF
 cdf_ecdf = ECDF(app_train['AMT_INCOME_TOTAL'],side='right')
 cdf_x = cdf_ecdf.x[1:]
 cdf_y = cdf_ecdf.y[1:]
-
-
 
 #------------------畫圖------------------
 plt.plot(list(cdf_x), cdf_y/cdf_y.max())
