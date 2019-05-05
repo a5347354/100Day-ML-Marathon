@@ -36,3 +36,6 @@
 
  - [D11: EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)](Day_011_HW.ipynb)
   > KDE圖形比較 seaborn.distplot、barplot
+
+ - [D12：EDA: 把連續型變數離散化](Day_012_HW.ipynb)
+   > 
