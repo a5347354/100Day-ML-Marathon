@@ -38,4 +38,7 @@
   > KDE圖形比較 seaborn.distplot、barplot
 
  - [D12：EDA: 把連續型變數離散化](Day_012_HW.ipynb)
-   > 
+  > 等距劃分、等頻劃分 cut、qcut
+
+ - [D13：程式實作 把連續型變數離散化](Day_012_HW.ipynb)
+  >
