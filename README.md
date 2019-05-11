@@ -40,5 +40,8 @@
  - [D12：EDA: 把連續型變數離散化](Day_012_HW.ipynb)
   > 等距劃分、等頻劃分 cut、qcut
 
- - [D13：程式實作 把連續型變數離散化](Day_012_HW.ipynb)
+ - [D13：程式實作 把連續型變數離散化](Day_013_HW.ipynb)
   > 離散化實作
+
+ - [D14：Subplots](Day_014_HW.ipynb)
+  > subplot排版（多合一顯示）
