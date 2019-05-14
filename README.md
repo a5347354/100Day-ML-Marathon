@@ -45,3 +45,6 @@
 
  - [D14：Subplots](Day_014_HW.ipynb)
   > subplot排版（多合一顯示）
+
+ - [D15：Heatmap & Grid-plot](Day_015_HW.ipynb)
+  > sns.heatmap Plot圖與sns.PairGrid Plot圖，np.random.uniform產生亂數
