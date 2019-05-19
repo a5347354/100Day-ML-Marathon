@@ -49,5 +49,8 @@
  - [D15：Heatmap & Grid-plot](Day_015_HW.ipynb)
   > sns.heatmap Plot圖與sns.PairGrid Plot圖，np.random.uniform產生亂數
 
- - [D16：D16：模型初體驗 Logistic Regression](Day_016_HW.ipynb)
+ - [D16：模型初體驗 Logistic Regression](Day_016_HW.ipynb)
   > Convert dataframe to csv and Upload to Kaggle
+
+ - [D17：特徵工程簡介](Day_017_HW.ipynb)
+ > LabelEncoder
