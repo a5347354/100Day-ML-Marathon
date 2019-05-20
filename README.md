@@ -54,3 +54,6 @@
 
  - [D17：特徵工程簡介](Day_017_HW.ipynb)
  > LabelEncoder
+
+ - [D18：特徵類型](Day_018_HW.ipynb)
+ > df.dtypes.reset_index()、、for in zip
