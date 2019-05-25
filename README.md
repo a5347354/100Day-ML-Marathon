@@ -62,3 +62,7 @@
  > 補缺失值：df.fillna() 0,-1,mean()
  > <br>標準化：StandardScaler()、MinMaxScaler()
  > <br>迴歸：LogisticRegression、cross_val_score
+
+ - [D20：數值型特徵 - 去除離群值](Day_020_HW.ipynb)
+ > clip 調整離群值
+ > <br>df[(df>0) & (df<100)] 移除離群值

@@ -1,4 +1,4 @@
-# Anomaly&Outlier異常值&離群值
+# Anomaly & Outlier 異常值&離群值
 ## 介紹
 > 異常值&離群值產生通常有可能為人為輸入錯誤或是不合常理的資料，例如：歲數高達2000歲，而離群值會讓我們在建立模型時，對結果產生不良的影響，但是離群值到底範圍多大，有多少個，又要如何發現呢，通常可以用max或min來發現離群值是否存在．
 
@@ -30,7 +30,7 @@ person['Age'] = person['Age'].clip(1,100)
 * 去除
 ```python
 import numpy
-#將離群值去除至1到100歲
+#將1到100歲外的離群值去除
 keep_index = (person['Age']>0) & (person['Age'] <100)
 person = person[keep_index]
 ```
