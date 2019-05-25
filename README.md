@@ -60,5 +60,5 @@
 
  - [D19：數值型特徵-補缺失值與標準化](Day_019_HW.ipynb)
  > 補缺失值：df.fillna() 0,-1,mean()
- > 標準化：StandardScaler()、MinMaxScaler()
- > 迴歸：LogisticRegression、cross_val_score
+ > <br>標準化：StandardScaler()、MinMaxScaler()
+ > <br>迴歸：LogisticRegression、cross_val_score
