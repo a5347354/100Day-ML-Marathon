@@ -7,9 +7,9 @@
 * 第一次(Round 1)拿第1份當作驗證，其他9份當作測試
 * 第二次(Round 2)拿第2份當作驗證，其他9份當作測試
 * ....
-* 將十次的準確性Accuracy平均，越高代表越好．
+* 將十次的準確性Accuracy平均，*越高代表越好*．
 
-#### 分為以下幾類
+## 分為以下幾類
 * k-folder cross-vailation
 * kk folder cross-vaildation
 * least-one-out cross-validation

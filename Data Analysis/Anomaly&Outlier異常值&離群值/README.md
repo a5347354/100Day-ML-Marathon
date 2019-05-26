@@ -1,17 +1,21 @@
 # Anomaly & Outlier 異常值&離群值
 ## 介紹
-> 異常值&離群值產生通常有可能為人為輸入錯誤或是不合常理的資料，例如：歲數高達2000歲，而離群值會讓我們在建立模型時，對結果產生不良的影響，但是離群值到底範圍多大，有多少個，又要如何發現呢，通常可以用max或min來發現離群值是否存在．
+> 異常值&離群值產生通常有可能為人為輸入錯誤或是不合常理的資料，例如：歲數高達2000歲，而離群值會讓我們在建立模型時，對結果產生不良的影響，但是離群值到底範圍多大，有多少個，又要如何發現呢？
 
 ## 如何發現離群值Outlier
 * 簡單統計量分析
 > 對資料做描述性統計，最常用**最大最小值**，例如客戶年齡最大值為2000歲，即有異常存在
+
+```python
+person['age'].describe()
+```
 
 * 3倍標準差(three-sigma rule of thumb 3σ)-適用於常態分佈的資料
 > 如果資料存在常態分佈，異常值並定義為與**平均值的偏差超過3倍的標準差**（在常態分佈假設下，其距離超過3倍標準差機率為P（｜x-｜>3）≤0.003）
 <p>
 <img src="Empirical_Rule.PNG">
 
-```python
+```python 
 import numpy
 std = std(person['age'])
 mean = mean(person['age'])
@@ -51,7 +55,7 @@ person['Age'] = person['Age'].clip(1,100)
 ```python
 import numpy
 #將1到100歲外的離群值去除
-keep_index = (person['Age']>0) & (person['Age'] <100)
+keep_index = (person['Age'] > 0) & (person['Age'] < 100)
 person = person[keep_index]
 ```
 

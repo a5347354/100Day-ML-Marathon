@@ -20,7 +20,8 @@
 
  - [D6: EDA: Outlier 及處理](Day_006_HW.ipynb)
   > 找出並處理 Outliers、ECDF、直方圖 Histogram
-    <br> [ECDF Note](/Data Analysis/ECDF/README.md)
+
+[ECDF Note](/Data Analysis/ECDF/README.md)
 
  - [D7: 常用的數值取代：中位數與分位數連續數值標準化](Day_007_HW.ipynb)
   > 遺漏值未移除計算percentile會有問題、 NAs 以 q50 填補、Normalize function、列出重複最多的數值
@@ -66,3 +67,8 @@
  - [D20：數值型特徵 - 去除離群值](Day_020_HW.ipynb)
  > clip 調整離群值
  > <br>df[(df>0) & (df<100)] 移除離群值
+
+ - [D21：數值型特徵 - 去除偏態](Day_021_HW.ipynb)
+ > 對數去偏 log1p、方根去偏 sqrt、分佈去偏 boxcox
+
+[Remove Skewness](/Data Analysis/Missing Value數據缺失值處理/README.md)
