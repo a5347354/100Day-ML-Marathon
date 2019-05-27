@@ -83,6 +83,7 @@ Label Encoding  |小/小             |樹狀模型
 One Hot Encoding|較大/較長          |非樹狀模型
 sparse
 
+
 ## Reference
 [Python机器学习中的实用小操作(一)：数据清理篇](https://zhuanlan.zhihu.com/p/29893734)
 <br>[数据预处理：独热编码（One-Hot Encoding）和 LabelEncoder标签编码](https://www.twblogs.net/a/5baab6e32b7177781a0e6859/zh-cn/)

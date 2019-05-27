@@ -28,15 +28,15 @@ import numpy as np
 
 # 資料
 iris = datasets.load_iris()
-X = iris.data
+x = iris.data
 y = iris.target
 
-#------------------Knn分類法------------------
+
 #分成十組資料，找十個鄰居
 knn = KNeighborsClassifier(n_neighbors=10)
-
-#accuracy是一種方法，越高越好
-scores = cross_val_score(knn,X,y,cv=5,scoring='accuracy')
+#-----------------cross_val_score-------------------
+#accuracy是一種方法，越高越好，cv=5為五組
+scores = cross_val_score(knn,x,y,cv=5,scoring='accuracy')
 print(scores)
 print(scores.mean())
 
