@@ -71,4 +71,7 @@
  - [D21：數值型特徵 - 去除偏態](Day_021_HW.ipynb)
  > 對數去偏 log1p、方根去偏 sqrt、分佈去偏 boxcox
 
+ - [D22：類別型特徵 - 基礎處理](Day_022_HW.ipynb)
+ >  Categorical Variables：LabelEncode & OneHotEncoder
+
 [Remove Skewness](Data\ Analysis/Missing\ Value數據缺失值處理/README.md)
