@@ -35,3 +35,7 @@ from scipy import stats
 grade = math.sqrt(grade - min(grade))
 stats.boxcox(grade, lambda = 0.15)
 ```
+
+
+## Reference
+[Transforming Skewed Data](https://towardsdatascience.com/transforming-skewed-data-73da4c2d0d16)
