@@ -12,9 +12,9 @@
 <br>無序變數代表資料並無順序，像是髮色、人種等，適合用***One Hot Encoding***處理
 
 ## 該如何處理呢？
-＊[標籤編碼 Label Encoding](#＊-標籤編碼-label-encoding)
-<br>＊[獨熱編碼 One Hot Encoding](#＊-獨熱編碼-one-hot-encoding)
-<br>＊[均值編碼 Mean Encoding](#＊-均值編碼-mean-encoding)
+＊[標籤編碼 Label Encoding](#-標籤編碼-label-encoding)
+<br>＊[獨熱編碼 One Hot Encoding](#-獨熱編碼-one-hot-encoding)
+<br>＊[均值編碼 Mean Encoding](#-均值編碼-mean-encoding)
 
 ### ＊ 標籤編碼 Label Encoding
 類似流水號，將類別依序填上代碼
