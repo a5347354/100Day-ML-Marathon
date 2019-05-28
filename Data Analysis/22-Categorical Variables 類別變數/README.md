@@ -94,9 +94,9 @@ array([[ 1.,     0.,    0.,   0.,  0., 1., 0., 0.,],
 <br>平均值的***可靠度低***，傾向相信***全部的總平均***
 <br>平均值的***可靠度高***，傾向相信***類別的平均***
 <p><img src="Smoothing02.png">
-<!-- <br>新類別均值=(原類別平均*類別樣本數+全部總平均*調整因子)/(類別樣本數+調整因子) -->
+<br>新類別均值=(原類別平均*類別樣本數+全部總平均*調整因子)/(類別樣本數+調整因子)
 <br>
-$新類別均值 = \frac{(原類別平均 * 類別樣本數 + 全部總平均 * 調整因子)}{類別樣本數 + 調整因子}$
+<!-- $新類別均值 = \frac{(原類別平均 * 類別樣本數 + 全部總平均 * 調整因子)}{類別樣本數 + 調整因子}$ -->
 
 ```python
 import pandas
@@ -119,3 +119,4 @@ Mean Encoding   |小/小             |
 <br>[数据预处理：独热编码（One-Hot Encoding）和 LabelEncoder标签编码](https://www.twblogs.net/a/5baab6e32b7177781a0e6859/zh-cn/)
 <br>[Sklearn 的 OneHotEncoder 說明與簡單範例](https://tree.rocks/python/sklearn-explain-onehotencoder-use/)
 <br>[機器學習 ML NOTEOverfitting 過度學習](https://medium.com/雞雞與兔兔的工程世界/機器學習-ml-note-overfitting-過度學習-6196902481bb)
+<br>[其他平滑方式：平均数编码：针对高基数定性特征（类别特征）的数据预处理/特征工程](https://zhuanlan.zhihu.com/p/26308272)
