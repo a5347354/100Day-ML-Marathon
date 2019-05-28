@@ -1,18 +1,20 @@
 # Categorical Variables 類別變數
-##介紹
-> 此變數代表著某一個狀態、屬性，像是性別、膚色等，又可分為有序 oridnal及無序 nominal，而我們常將文字的訊息轉化成電腦較好處理的訊息．
+## 介紹
+此變數代表著某一個狀態、屬性，像是性別、膚色等，又可分為有序 oridnal及無序 nominal，而我們常將文字的訊息轉化成電腦較好處理的訊息．
 
 <br><img src="Categorical Variables.png">
 
 ## 類別變數分為哪幾類？
 * 有序變數 Oridnal Variables
-> 有序變數代表其資料是有順序之分的，如成績分為A++、A+、A、B++、B+、B或著小學、國中、高中、大學，較適合用***Label Encoding***處理
+<br>有序變數代表其資料是有順序之分的，如成績分為A++、A+、A、B++、B+、B或著小學、國中、高中、大學，較適合用***Label Encoding***處理
+
 * 無序變數 Non-ordinal/Nominal Variables
-> 無序變數代表資料並無順序，像是髮色、人種等，適合用***One Hot Encoding***處理
+<br>無序變數代表資料並無順序，像是髮色、人種等，適合用***One Hot Encoding***處理
 
 ## 該如何處理呢？
-* 標籤編碼 Label Encoding
-> 類似流水號，將類別依序填上代碼
+
+### ＊ 標籤編碼 Label Encoding
+類似流水號，將類別依序填上代碼
 
 <br><img src="Label Encoding.png">
 
@@ -39,9 +41,9 @@ array([['0', '1'],
       dtype='<U4')
 """
 ```
-* 獨熱編碼 One Hot Encoding
-> 將不同類別獨立一欄，並以0和1代表
-> <br>缺點：浪費記憶體空間與計算時間
+### ＊ 獨熱編碼 One Hot Encoding
+將不同類別獨立一欄，並以0和1代表
+<br>缺點：浪費記憶體空間與計算時間
 
 <br><img src="One Hot Encoding.png">
 
@@ -75,6 +77,20 @@ array([[ 1.,    0.,    0.,   0.,  0., 1., 0., 0.,],
 """
 ```
 
+### ＊ 均值編碼 Mean Encoding
+使用目標平均值，取代原本的類別特徵
+<br>適用於與類別特徵與目標值有顯著相關，例如：地區與房價
+
+<br><img src="Mean Encoding.png">
+
+缺點：樣本少，若只有極端值，平均結果會有誤差，可採用***平滑化Smoothing***
+
+
+
+```python
+
+
+```
 
 ##### Conclusion
 處理方式         |記憶體空間／計算時間 |適用模型
