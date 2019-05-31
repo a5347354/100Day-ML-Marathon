@@ -7,74 +7,78 @@
  - [D2: EDA-1/讀取資料EDA: Data summary](Day_002_HW.ipynb)
  - D3: 如何新建一個 dataframe?3-2 如何讀取其他資料? (非 csv 的資料)
     - [D3 Homework 1](Day_003-1_HW.ipynb)
-    > 亂數randint、array, list, dataframe 之間的轉換、找出最多人口的國家max
+   <br>亂數randint、array, list, dataframe 之間的轉換、找出最多人口的國家max
 
     - [D3 Homework 2](Day_003-2_HW.ipynb)
-    > 讀取txt 或 網頁資料，切割字串split與用URL顯示圖片
+   <br>讀取txt 或 網頁資料，切割字串split與用URL顯示圖片
 
  - [D4: EDA：欄位的資料類型介紹及處理](Day_004_HW.ipynb)
-  > One Hot encoding - pandas.get_dummies([DATA])
+ <br>One Hot encoding - pandas.get_dummies([DATA])
 
  - [D5: EDA資料分佈](Day_005_HW.ipynb)
-  > Mean、Median、Sample Standard Deviation、Hist
+ <br>Mean、Median、Sample Standard Deviation、Hist
 
  - [D6: EDA: Outlier 及處理](Day_006_HW.ipynb)
-  > 找出並處理 Outliers、ECDF、直方圖 Histogram
+ <br>找出並處理 Outliers、ECDF、直方圖 Histogram
 
 [ECDF Note](Data\ Analysis/ECDF/README.md)
 
  - [D7: 常用的數值取代：中位數與分位數連續數值標準化](Day_007_HW.ipynb)
-  > 遺漏值未移除計算percentile會有問題、 NAs 以 q50 填補、Normalize function、列出重複最多的數值
+ <br>遺漏值未移除計算percentile會有問題、 NAs 以 q50 填補、Normalize function、列出重複最多的數值
 
  - [D8: DataFrame operationData frame merge/常用的 DataFrame 操作](Day_008_HW.ipynb)
-  > 分群 cut, groupby, apply & lambda
+ <br>分群 cut, groupby, apply & lambda
 
  - [D9: EDA：correlation相關係數簡介](Day_009_HW.ipynb)
-  > 計算相關係數np.corrcoef、畫出數據點分佈scatter
+ <br>計算相關係數np.corrcoef、畫出數據點分佈scatter
 
  - [D10: EDA from Correlation](Day_010_HW.ipynb)
-  > 計算相關係數np.corrcoef、觀察與其他欄位之分佈圖
+ <br>計算相關係數np.corrcoef、觀察與其他欄位之分佈圖
 
  - [D11: EDA: 不同數值範圍間的特徵如何檢視/繪圖與樣式Kernel Density Estimation (KDE)](Day_011_HW.ipynb)
-  > KDE圖形比較 seaborn.distplot、barplot
+ <br>KDE圖形比較 seaborn.distplot、barplot
 
  - [D12：EDA: 把連續型變數離散化](Day_012_HW.ipynb)
-  > 等距劃分、等頻劃分 cut、qcut
+ <br>等距劃分、等頻劃分 cut、qcut
 
  - [D13：程式實作 把連續型變數離散化](Day_013_HW.ipynb)
-  > 離散化實作
+ <br>離散化實作
 
  - [D14：Subplots](Day_014_HW.ipynb)
-  > subplot排版（多合一顯示）
+ <br>subplot排版（多合一顯示）
 
  - [D15：Heatmap & Grid-plot](Day_015_HW.ipynb)
-  > sns.heatmap Plot圖與sns.PairGrid Plot圖，np.random.uniform產生亂數
+ <br>sns.heatmap Plot圖與sns.PairGrid Plot圖，np.random.uniform產生亂數
 
  - [D16：模型初體驗 Logistic Regression](Day_016_HW.ipynb)
-  > Convert dataframe to csv and Upload to Kaggle
+ <br>Convert dataframe to csv and Upload to Kaggle
 
  - [D17：特徵工程簡介](Day_017_HW.ipynb)
- > LabelEncoder
+ <br>LabelEncoder
 
  - [D18：特徵類型](Day_018_HW.ipynb)
- > df.dtypes.reset_index()、for in zip
+ <br>df.dtypes.reset_index()、for in zip
 
  - [D19：數值型特徵-補缺失值與標準化](Day_019_HW.ipynb)
- > 補缺失值：df.fillna() 0,-1,mean()
- > <br>標準化：StandardScaler()、MinMaxScaler()
- > <br>迴歸：LogisticRegression、cross_val_score
+ <br>補缺失值：df.fillna() 0,-1,mean()
+ <br>標準化：StandardScaler()、MinMaxScaler()
+ <br>迴歸：LogisticRegression、cross_val_score
 
  - [D20：數值型特徵 - 去除離群值](Day_020_HW.ipynb)
- > clip 調整離群值
- > <br>df[(df>0) & (df<100)] 移除離群值
+ <br>clip 調整離群值
+ <br>df[(df>0) & (df<100)] 移除離群值
 
  - [D21：數值型特徵 - 去除偏態](Day_021_HW.ipynb)
- > 對數去偏 log1p、方根去偏 sqrt、分佈去偏 boxcox
+ <br>對數去偏 log1p、方根去偏 sqrt、分佈去偏 boxcox
 
  [Remove Skewness](Data\ Analysis/Missing\ Value數據缺失值處理/README.md)
 
  - [D22：類別型特徵 - 基礎處理](Day_022_HW.ipynb)
- >  Categorical Variables：LabelEncode & OneHotEncoder
+ <br>Categorical Variables：LabelEncode & OneHotEncoder
 
  - [D23：類別型特徵 - 均值編碼](Day_023_HW.ipynb)
- >  Categorical Variables：Mean Encoding
+ <br>Categorical Variables：Mean Encoding
+
+ - [D24：類別型特徵 - 其他進階處理](Day_024_HW.ipynb)
+ <br>Categorical Variables：Count Encoding & Feature Hash
+  - [Note：Count Encoding & Feature Hash](Data Analysis/22-Categorical Variables 類別變數/README.md)
