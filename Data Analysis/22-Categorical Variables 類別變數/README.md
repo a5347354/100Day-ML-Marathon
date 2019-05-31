@@ -16,6 +16,7 @@
 <br>＊[獨熱編碼 One Hot Encoding](#-獨熱編碼-one-hot-encoding)
 <br>＊[均值編碼 Mean Encoding](#-均值編碼-mean-encoding)
 <br>＊[計數編碼 Counting Encoding](#-計數編碼-counting-encoding)
+<br>＊[特徵雜湊 Feature Hash](#-特徵雜湊-feature-hash)
 <br>＊[Conclusion](#-Conclusion)
 
 ### ＊ 標籤編碼 Label Encoding
@@ -47,6 +48,8 @@ array([['0', '1'],
       dtype='<U4')
 """
 ```
+<p>
+<p>
 ### ＊ 獨熱編碼 One Hot Encoding
 將不同類別獨立一欄，並以0和1代表
 <br>缺點：浪費記憶體空間與計算時間
@@ -83,10 +86,11 @@ array([[ 1.,     0.,    0.,    0.,  0., 1., 0., 0.,],
        [ 0.,     0.,    0.,    1.,  0., 0., 1., 0.,]])
 """
 ```
-
+<p>
+<p>
 ### ＊ 均值編碼 Mean Encoding
 使用目標平均值，取代原本的類別特徵
-<br>適用於與類別特徵與目標值有顯著相關，例如：地區與房價
+<br>適用於與***類別特徵與目標值有顯著相關***，例如：地區與房價
 <br><img src="Mean Encoding.png">
 
 缺點：樣本少，若只有極端值，平均結果會有誤差，可採用***平滑化Smoothing***，但還是很可能造成***overfitting***
@@ -106,16 +110,44 @@ data_tmp = taipei.groupby('行政區')
 data_tmp = data_tmp['房產價位'].mean()
 data_tmp = data_tmp.reset_index()
 ```
-
+<p>
+<br>
 ### ＊ 計數編碼 Counting Encoding
+計算編碼為計算類別在***資料中出現的次數***，當***目標平均值與類別比數呈現正相關/負相關***時，可以考慮使用
+<br>補充：count vectorizer為每種詞頻出現的頻率，屬於計數編碼的一種變形
+<br><img src="Counting Encoding.png">
 
+```python
+import pandas
+## agg['ROW_NAME':'FUNCTION']
+data_count = data.groupby('國別')['國別'].agg[{'計數編碼':'size'}].reset_index()
+data = pd.merge(data, data_count, on = '國別', how = 'left')
+# 移除原本國別欄位
+data = data.drop('國別', axis = 1)
+```
+<p>
+<br>
+### ＊ 特徵雜湊 Feature Hash
+當***不同類別非常龐大***，可採用雜湊函數（在空間/時間上與鑑別度取折衷），例如姓名要轉換成編碼，每個人的姓名都不重複，使用Hot One Encoding勢必需要很大的記憶體空間，此舉非常不適合
+<br><img src="Hash table.png">
+
+```python
+import numpy
+# 這邊的雜湊編碼, 是直接將 'Name' 的名稱放入雜湊函數的輸出數值, 為了要確定是緊密(dense)特徵, 因此除以15後看餘數
+# 15 為隨機選擇, 不一定要使用 15, 可以自由選擇夠小的數字試看看. 基本上效果都不會太好
+data['Name_hashes'] = data['Name'].map(lambda x:hash(x) % 15)
+# 移除姓名欄位
+data.drop('Name', axis = 1)
+```
 
 ### ＊ Conclusion
 處理方式         |記憶體空間／計算時間 |適用模型
-----------------|----------------:|-------:
-Label Encoding  |小/小             |樹狀模型
-One Hot Encoding|較大/較長          |非樹狀模型
-Mean Encoding   |小/小             |
+-------------------|----------------:|-------:
+Label Encoding     |小/小             |樹狀模型
+One Hot Encoding   |較大/較長          |非樹狀模型
+Mean Encoding      |小/小             |
+Counting Encoding  |小/小             |
+Feature Hash       |小/小             |
 
 
 
@@ -125,3 +157,4 @@ Mean Encoding   |小/小             |
 <br>[Sklearn 的 OneHotEncoder 說明與簡單範例](https://tree.rocks/python/sklearn-explain-onehotencoder-use/)
 <br>[機器學習 ML NOTEOverfitting 過度學習](https://medium.com/雞雞與兔兔的工程世界/機器學習-ml-note-overfitting-過度學習-6196902481bb)
 <br>[其他平滑方式：平均数编码：针对高基数定性特征（类别特征）的数据预处理/特征工程](https://zhuanlan.zhihu.com/p/26308272)
+<br>[基于sklearn的文本特征抽取](https://www.jianshu.com/p/063840752151)
