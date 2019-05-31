@@ -50,6 +50,7 @@ array([['0', '1'],
 ```
 <br>
 <br>
+
 ### ＊ 獨熱編碼 One Hot Encoding
 將不同類別獨立一欄，並以0和1代表
 <br>缺點：浪費記憶體空間與計算時間
@@ -114,6 +115,7 @@ data_tmp = data_tmp.reset_index()
 ```
 <br>
 <br>
+
 ### ＊ 計數編碼 Counting Encoding
 計算編碼為計算類別在***資料中出現的次數***，當***目標平均值與類別比數呈現正相關/負相關***時，可以考慮使用
 <br>補充：count vectorizer為每種詞頻出現的頻率，屬於計數編碼的一種變形
@@ -129,6 +131,7 @@ data = data.drop('國別', axis = 1)
 ```
 <br>
 <br>
+
 ### ＊ 特徵雜湊 Feature Hash
 當***不同類別非常龐大***，可採用雜湊函數（在空間/時間上與鑑別度取折衷），例如姓名要轉換成編碼，每個人的姓名都不重複，使用Hot One Encoding勢必需要很大的記憶體空間，此舉非常不適合
 <br><img src="Hash table.png">
