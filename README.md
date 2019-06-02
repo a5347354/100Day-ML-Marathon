@@ -80,9 +80,8 @@
  <br>Categorical Variables：Mean Encoding
 
  - [D24：類別型特徵 - 其他進階處理](Day_024_HW.ipynb)
-   - [Note：Count Encoding & Feature Hash](Data Analysis/22-Categorical Variables 類別變數/README.md)
-
-   <br>Categorical Variables：Count Encoding & Feature Hash
+    <br>Categorical Variables：Count Encoding & Feature Hash
+   - [Note：Count Encoding & Feature Hash](\Data Analysis/22-Categorical Variables 類別變數/README.md)
 
  - [D25：時間型特徵](Day_025_HW.ipynb)
  <br>Time Variables
