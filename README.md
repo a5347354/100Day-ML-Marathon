@@ -85,3 +85,5 @@
 
  - [D25：時間型特徵](Day_025_HW.ipynb)
  <br>Time Variables
+
+ - [D26：特徵組合 - 數值與數值組合](Day_026_HW.ipynb)
