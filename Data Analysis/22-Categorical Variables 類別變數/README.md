@@ -2,7 +2,7 @@
 ## 介紹
 此變數代表著某一個狀態、屬性，像是性別、膚色等，又可分為有序 oridnal及無序 nominal，而我們常將文字的訊息轉化成電腦較好處理的訊息．
 
-<br><img src="Categorical Variables.png" width="200">
+<br><img src="Categorical Variables.png" width="600">
 
 ## 類別變數分為哪幾類？
 * 有序變數 Oridnal Variables
@@ -22,7 +22,7 @@
 
 ### ＊ 標籤編碼 Label Encoding
 類似流水號，將類別依序填上代碼
-<br><img src="Label Encoding.png" width="200">
+<br><img src="Label Encoding.png" width="600">
 
 ```python
 from sklearn.preprocessing import LabelEncode
@@ -55,7 +55,7 @@ array([['0', '1'],
 ### ＊ 獨熱編碼 One Hot Encoding
 將不同類別獨立一欄，並以0和1代表
 <br>缺點：浪費記憶體空間與計算時間
-<br><img src="One Hot Encoding.png" width="200">
+<br><img src="One Hot Encoding.png" width="600">
 
 ```python
 # 第一種做法
@@ -94,16 +94,16 @@ array([[ 1.,     0.,    0.,    0.,  0., 1., 0., 0.,],
 ### ＊ 均值編碼 Mean Encoding
 使用***目標平均值***，取代原本的類別特徵
 <br>適用於與***類別特徵與目標值有顯著相關***，例如：地區與房價
-<br><img src="Mean Encoding.png" width="200">
+<br><img src="Mean Encoding.png" width="600">
 
 缺點：樣本少，若只有極端值，平均結果會有誤差，可採用***平滑化Smoothing***，但還是很可能造成***overfitting***
-<br><img src="Smoothing01.png" width="200">
+<br><img src="Smoothing01.png" width="600">
 
 #### 平滑化 Smoothing
 考慮***記錄筆數***，當作可靠度
 <br>平均值的***可靠度低***，傾向相信***全部的總平均***
 <br>平均值的***可靠度高***，傾向相信***類別的平均***
-<p><img src="Smoothing02.png" width="200">
+<p><img src="Smoothing02.png" width="600">
 <br>新類別均值=(原類別平均*類別樣本數+全部總平均*調整因子)/(類別樣本數+調整因子)
 <br>
 <!-- $新類別均值 = \frac{(原類別平均 * 類別樣本數 + 全部總平均 * 調整因子)}{類別樣本數 + 調整因子}$ -->
@@ -120,7 +120,7 @@ data_tmp = data_tmp.reset_index()
 ### ＊ 計數編碼 Counting Encoding
 計算編碼為計算類別在***資料中出現的次數***，當***目標平均值與類別筆數呈現正相關/負相關***時，可以考慮使用
 <br>補充：count vectorizer為每種詞頻出現的頻率，屬於計數編碼的一種變形
-<br><img src="Counting Encoding.png" width="200">
+<br><img src="Counting Encoding.png" width="600">
 
 ```python
 import pandas
@@ -135,7 +135,7 @@ data = data.drop('國別', axis = 1)
 
 ### ＊ 特徵雜湊 Feature Hash
 當***不同類別非常龐大***，可採用雜湊函數（在空間/時間上與鑑別度取折衷），例如姓名要轉換成編碼，每個人的姓名都不重複，使用Hot One Encoding勢必需要很大的記憶體空間，此舉非常不適合
-<br><img src="Hash table.png" width="200">
+<br><img src="Hash table.png" width="600">
 
 ```python
 import numpy
@@ -148,7 +148,7 @@ data.drop('Name', axis = 1)
 
 ### ＊ 群聚編碼 Group by Encoding
 
-<br><img src="Group by Encoding.png" width="200">
+<br><img src="Group by Encoding.png" width="600">
 
 
 ### ＊ Conclusion
