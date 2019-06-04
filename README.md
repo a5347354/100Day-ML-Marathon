@@ -70,8 +70,7 @@
 
  - [D21：數值型特徵 - 去除偏態](Day_021_HW.ipynb)
  <br>對數去偏 log1p、方根去偏 sqrt、分佈去偏 boxcox
-
- [Remove Skewness](./Data Analysis/Missing Value數據缺失值處理/README.md)
+    - [Remove Skewness](Data%20Analysis/Missing%20Value數據缺失值處理/README.md)
 
  - [D22：類別型特徵 - 基礎處理](Day_022_HW.ipynb)
  <br>Categorical Variables：LabelEncode & OneHotEncoder
@@ -81,12 +80,12 @@
 
  - [D24：類別型特徵 - 其他進階處理](Day_024_HW.ipynb)
     <br>Categorical Variables：Count Encoding & Feature Hash
-   - [Note：Count Encoding & Feature Hash](./Data Analysis/22-Categorical Variables 類別變數/README.md)
+   - [Note：Count Encoding & Feature Hash](Data%20Analysis/22-Categorical%20Variables%20類別變數/README.md)
 
  - [D25：時間型特徵](Day_025_HW.ipynb)
  <br>Time Variables
-  - [Note：Time Variables](./Data Analysis/25-Time Variables 時間型特徵/README.md)
+  - [Note：Time Variables](Data%20Analysis/25-Time%20Variables%20時間型特徵/README.md)
 
  - [D26：特徵組合 - 數值與數值組合](Day_026_HW.ipynb)
  - [D27：特徵組合 - 類別與數值組合](Day_027_HW.ipynb)
-  - [Note：Categorical Variables](./Data Analysis/22-Categorical Variables 類別變數特徵/README.md)
+    - [Note：Categorical Variables](Data%20Analysis/22-Categorical%20Variables%20類別變數特徵/README.md)
