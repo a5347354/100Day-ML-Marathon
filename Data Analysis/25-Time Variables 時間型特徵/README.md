@@ -4,6 +4,9 @@
 <br>年週期：聖嬰現象、大事件變動（選舉）等
 <br>月週期：四季溫度相關（稻穗、養殖）等
 <br>周週期：週末假日出遊、星期一購買率可能價低？等
+<br><img src="Time Variables 01.png" width="600">
+
+
 ```python
 import datetime
 df['year'] = df['time'].apply(lambda x: datetime.datetime.strftime(x, '%Y')).astype('int64')

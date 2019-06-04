@@ -13,7 +13,7 @@ person['age'].describe()
 ### ＊ 3倍標準差(three-sigma rule of thumb 3σ)-適用於常態分佈的資料
 如果資料存在常態分佈，異常值並定義為與**平均值的偏差超過3倍的標準差**（在常態分佈假設下，其距離超過3倍標準差機率為P（｜x-｜>3）≤0.003）
 <p>
-<img src="Empirical_Rule.PNG">
+<img src="Empirical_Rule.PNG" width="600">
 
 ```python
 import numpy
@@ -30,7 +30,7 @@ upper = mean + 3 * std
 <br>Q1為上四分位數，代表有四分之一的資料比它大
 <br>IQR為四分位數距，上四分位數-下四分位數(Q3-Q1=IQR)
 <br>**X < Q1 - 1.5 IQR(Lower Limit) || X > Q3 + 1.5 IQR(Upper Limit)**
-<p><img src="BoxPlot-Outliers.png">
+<p><img src="BoxPlot-Outliers.png" width="600">
 <p>
 
 ```python

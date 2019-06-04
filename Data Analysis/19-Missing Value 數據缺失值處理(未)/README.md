@@ -1,9 +1,9 @@
 # Missing Value
 ## 介紹
 資料中常常會因人為輸入或某些因素造成部分資料未填入．
-<br><img src="Missing Values 01.png">
+<br><img src="Missing Values 01.png" width="600">
 <br>
-<br><img src="Missing Values 02.png">
+<br><img src="Missing Values 02.png" width="600">
 ## How to deal with missing datas
 
 ### 填補
@@ -70,5 +70,5 @@ df['房間數'] = df['房間數'].fillna(0)
 
 ## Reference
 其他缺失值處理參考
-<img src="數據缺失值處理.png">
+<img src="數據缺失值處理.png" width="600">
 <br>[Missing Value Treatment | 遺失值處理 | 統計 R語言](https://www.jamleecute.com/missing-value-treatment-遺失值處理/)
