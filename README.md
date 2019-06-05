@@ -74,15 +74,15 @@
 
  - [D22：類別型特徵 - 基礎處理](Day_022_HW.ipynb)
  <br>Categorical Variables：LabelEncode & OneHotEncoder
-   - [Note：Label Encoding & One Hot Encoding](Data%20Analysis/22-Categorical%20Variables%20類別變數/README.md)
+   - [Note：Label Encoding & One Hot Encoding](Data%20Analysis/22-Categorical%20Variables%20類別變數特徵/README.md)
 
  - [D23：類別型特徵 - 均值編碼](Day_023_HW.ipynb)
  <br>Categorical Variables：Mean Encoding
-    - [Note：Mean Encoding](Data%20Analysis/22-Categorical%20Variables%20類別變數/README.md#-均值編碼-mean-encoding)
+    - [Note：Mean Encoding](Data%20Analysis/22-Categorical%20Variables%20類別變數特徵/README.md)
 
  - [D24：類別型特徵 - 其他進階處理](Day_024_HW.ipynb)
     <br>Categorical Variables：Count Encoding & Feature Hash
-   - [Note：Count Encoding & Feature Hash](Data%20Analysis/22-Categorical%20Variables%20類別變數/README.md#-計數編碼-counting-encoding)
+   - [Note：Count Encoding & Feature Hash](Data%20Analysis/22-Categorical%20Variables%20類別變數特徵/README.md)
 
  - [D25：時間型特徵](Day_025_HW.ipynb)
  <br>Time Variables
@@ -90,4 +90,4 @@
 
  - [D26：特徵組合 - 數值與數值組合](Day_026_HW.ipynb)
  - [D27：特徵組合 - 類別與數值組合](Day_027_HW.ipynb)
-    - [Note：Categorical Variables](Data%20Analysis/22-Categorical%20Variables%20類別變數特徵/README.md#-群聚編碼-Group-by-Encoding)
+    - [Note：Group by Encoding](Data%20Analysis/22-Categorical%20Variables%20類別變數特徵/README.md)
