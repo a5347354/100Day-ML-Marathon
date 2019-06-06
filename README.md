@@ -93,4 +93,4 @@
     - [Note：Group by Encoding](Data%20Analysis/22-Categorical%20Variables%20類別變數特徵/README.md)
  - [D28：特徵選擇](Day_028_HW.ipynb)
  <br>Filter、Wrapper、Embedded三種主要方法
-    - [Note：Group by Encoding](Data%20Analysis/28-Feature%20Selection%20特徵選擇/README.md)
+    - [Note：Feature Selection](Data%20Analysis/28-Feature%20Selection%20特徵選擇/README.md)
