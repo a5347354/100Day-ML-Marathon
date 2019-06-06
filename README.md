@@ -91,3 +91,6 @@
  - [D26：特徵組合 - 數值與數值組合](Day_026_HW.ipynb)
  - [D27：特徵組合 - 類別與數值組合](Day_027_HW.ipynb)
     - [Note：Group by Encoding](Data%20Analysis/22-Categorical%20Variables%20類別變數特徵/README.md)
+ - [D28：特徵選擇](Day_028_HW.ipynb)
+ <br>Filter、Wrapper、Embedded三種主要方法
+    - [Note：Group by Encoding](Data%20Analysis/28-Feature%20Selection%20特徵選擇/README.md)

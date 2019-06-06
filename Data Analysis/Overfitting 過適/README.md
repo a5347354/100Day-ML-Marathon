@@ -14,8 +14,6 @@
 
 ## 解決方法
 #### 取得更多資料
-
-####
 ## Reference
 [機器學習基石 學習筆記 (4)：機器可以怎麼學得更好?](https://www.ycc.idv.tw/ml-course-foundations_4.html)
 <br>[精進魔法 Regularization：減少 Overfitting ，提高模型泛化能力](https://ithelp.ithome.com.tw/articles/10203371)
