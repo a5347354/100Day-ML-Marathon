@@ -94,3 +94,8 @@
  - [D28：特徵選擇](Day_028_HW.ipynb)
  <br>Filter、Wrapper、Embedded三種主要方法
     - [Note：Feature Selection](Data%20Analysis/28-Feature%20Selection%20特徵選擇/README.md)
+
+ - [D29：特徵評估](Day_029_HW.ipynb)
+  <br>特徵重要性及排列重要性
+    - [Note：Feature Selection](29-Feature%20Evaluation%20特徵評估/README.md)
+    
