@@ -97,5 +97,8 @@
 
  - [D29：特徵評估](Day_029_HW.ipynb)
   <br>特徵重要性及排列重要性
-    - [Note：Feature Selection](29-Feature%20Evaluation%20特徵評估/README.md)
-    
+    - [Note：Feature Evaluation](29-Feature%20Evaluation%20特徵評估/README.md)
+
+ - [D30：分類型特徵優化 - 葉編碼](Day_030_HW.ipynb)
+     <br>葉編碼
+       - [Note：Leaf Encoding](30-Leaf%20Encoding%20葉編碼/README.md)
