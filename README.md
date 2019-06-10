@@ -106,3 +106,6 @@
  - [D31：機器學習概論](Day_031_HW.ipynb)
      <br>機器學習概論
      - [Note：Introduction of Machine Learning](Data%20Analysis/31-Introduction%20of%20Machine%20Learning%20機器學習介紹/README.md)
+
+ - [D32：機器學習-流程與步驟](Day_032_HW.ipynb)
+     <br>文獻閱讀
