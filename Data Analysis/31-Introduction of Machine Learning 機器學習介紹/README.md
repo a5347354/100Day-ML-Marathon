@@ -33,3 +33,4 @@
 ## Reference
 [機器學習的機器是怎麼從資料中「學」到東西的？超簡單機器學習名詞入門篇！](https://kopu.chat/2017/07/28/機器是怎麼從資料中「學」到東西的呢/)
 [Stanford 李飛飛教授 TED Talk - 如何教懂電腦看圖像](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-tw)
+[監督式學習？增強學習？聽不懂的話，一定要看這篇入門的機器學習名詞解釋！](https://www.inside.com.tw/article/9945-machine-learning)

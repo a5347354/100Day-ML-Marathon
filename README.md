@@ -97,12 +97,12 @@
 
  - [D29：特徵評估](Day_029_HW.ipynb)
   <br>特徵重要性及排列重要性
-    - [Note：Feature Evaluation](29-Feature%20Evaluation%20特徵評估/README.md)
+    - [Note：Feature Evaluation](Data%20Analysis/29-Feature%20Evaluation%20特徵評估/README.md)
 
  - [D30：分類型特徵優化 - 葉編碼](Day_030_HW.ipynb)
      <br>葉編碼
-     - [Note：Leaf Encoding](30-Leaf%20Encoding%20葉編碼/README.md)
+     - [Note：Leaf Encoding](Data%20Analysis/30-Leaf%20Encoding%20葉編碼/README.md)
 
  - [D31：機器學習概論](Day_031_HW.ipynb)
      <br>機器學習概論
-     - [Note：Introduction of Machine Learning](31-Introduction%20of%20Machine%20Learning%20機器學習介紹/README.md)
+     - [Note：Introduction of Machine Learning](Data%20Analysis/31-Introduction%20of%20Machine%20Learning%20機器學習介紹/README.md)
