@@ -35,7 +35,7 @@ y = iris.target
 #分成十組資料，找十個鄰居
 knn = KNeighborsClassifier(n_neighbors=10)
 #-----------------cross_val_score-------------------
-#accuracy是一種方法，越高越好，cv=5為五組
+#accuracy是一種方法，越高越好，cv=5分成五組（上述圖是十組）
 scores = cross_val_score(knn,x,y,cv=5,scoring='accuracy')
 print(scores)
 print(scores.mean())

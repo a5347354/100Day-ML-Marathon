@@ -109,3 +109,7 @@
 
  - [D32：機器學習-流程與步驟](Day_032_HW.ipynb)
      <br>文獻閱讀
+
+ - [D33：機器如何學習?](Day_033_HW.ipynb)
+     <br>機器學習與過擬合
+     - [Note：Overfitting](Data%20Analysis/Overfitting%20過適/README.md)
