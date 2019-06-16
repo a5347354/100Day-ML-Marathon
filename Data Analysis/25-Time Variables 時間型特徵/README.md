@@ -12,6 +12,8 @@ import datetime
 df['year'] = df['time'].apply(lambda x: datetime.datetime.strftime(x, '%Y')).astype('int64')
 df['month'] = df['time'].apply(lambda x: datetime.datetime.strftime(x, '%m')).astype('int64')
 df['day'] = df['time'].apply(lambda x: datetime.datetime.strftime(x, '%d')).astype('int64')
+# 星期 return 0~6
+df['week'] = df['time'].apply(lambda x: datetime.datetime.strftime(x, '%w')).astype('int64')
 ```
 
 <br>也可使用多個時間特徵並結合正弦函數sin或餘弦函數cos
