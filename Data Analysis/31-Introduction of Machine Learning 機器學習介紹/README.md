@@ -18,6 +18,14 @@
 ### ＊ 監督式學習 Supervised Learning
  在訓練的過程中告訴機器答案，也就是「有標籤」的資料
  <br>例如：給機器各看了 1000 張貓和狗（標籤）的照片後，詢問機器新的一張照片中是貓還是狗
+<br>監督式學習主要分為回歸Regression以及分類Classification問題，兩者可以互相轉換，例如：原本是預測身高，可改為預測是否高於中位數
+
+Property   |Supervised Classification|Regression           
+----------:|------------------------:|--------------------:
+Output Type|discrete(class labels)   |continuous(number)   
+Finding    |decision boundary        |best fit line        
+Evaluation |Accuracy                 |Risdual sum of square
+
 ### ＊ 非監督式學習 Unsupervised Learning
 訓練資料沒有標準答案、不需要事先以人力輸入標籤，故機器在學習時並不知道其分類結果是否正確。訓練時僅須對機器提供輸入範例，它會自動從這些範例中找出潛在的規則。
 <br>例如：帶機器 1000 次去動物園看動物，他會慢慢開始分辨某類動物會飛，某類動物都是在水裡，是不同種類的動物，但不知道此類動物的名字．
@@ -34,3 +42,4 @@
 [機器學習的機器是怎麼從資料中「學」到東西的？超簡單機器學習名詞入門篇！](https://kopu.chat/2017/07/28/機器是怎麼從資料中「學」到東西的呢/)
 [Stanford 李飛飛教授 TED Talk - 如何教懂電腦看圖像](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-tw)
 [監督式學習？增強學習？聽不懂的話，一定要看這篇入門的機器學習名詞解釋！](https://www.inside.com.tw/article/9945-machine-learning)
+[Supervised classification和Regression的比較](http://zylix666.blogspot.com/2016/06/supervised-classificationregression.html)

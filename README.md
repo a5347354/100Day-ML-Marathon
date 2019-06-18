@@ -113,3 +113,7 @@
  - [D33：機器如何學習?](Day_033_HW.ipynb)
      <br>機器學習與過擬合
      - [Note：Overfitting](Data%20Analysis/Overfitting%20過適/README.md)
+ - [D34：訓練/測試集切分的概念](Day_034_HW.ipynb)
+     <br>train_test_split & np.concatenate()合併陣列
+
+ - [D35：regression vs. classification](Day_035_HW.ipynb)
