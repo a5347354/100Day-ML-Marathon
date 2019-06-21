@@ -6,7 +6,7 @@
 ### ＊ 回歸 Regression
 m 代表資料個數
 <br> y<sub>i</sub> 代表觀察值
-<br> y<sub>i</sub>
+<br> y<sub>i</sub> 帽子代表預測值
 <br><img src="Regression.jpg" width="300" alt="MAE" title="MAE">
 
 * MAE (Mean Absolute Error)
@@ -28,6 +28,10 @@ mean_squared_error(y_test,y_predict)
 * R-square
 <br>範圍： 0 to 1
 <br>其值越接近1，代表方程式的變數對 y 的解釋能力越強
+<br><img src="SSR.png" width="200" alt="SSR" title="SSR">
+<br><img src="SST.png" width="200" alt="SST" title="SST">
+<br><img src="R_square.png" width="400" alt="R_square" title="R_square">
+
 ```python
 from sklearn.metrics import r2_score
 r2_score(y_test,y_predict)
@@ -47,4 +51,20 @@ auc(fpr,tpr)
 ```
 可參考 [ROC Curve Note](../Data%20Analysis/ROC%20Curve%20ROC曲線/README.md)
 
-* F1 Score (Precision, Recall)
+* F1 Score (Precision, Recall)，β = 1
+<br><img src="F_Score.png" width="300" alt="F_Score" title="F_Score">
+
+```python
+from sklearn.metrics import f1_score
+f1_score(y_test, y_predict)
+```
+
+* F2 Score (Precision, Recall)，β = 2
+<br><img src="F_Score.png" width="300" alt="F_Score" title="F_Score">
+
+```python
+from sklearn.metrics import precision_score, recall_score
+precision = precision_score(y_test, y_predict)
+recall = recall_score(y_test, y_predict)
+F2 = (1+pow(2,2)) * precision * recall / (pow(2,2) * precision + recall)
+```
