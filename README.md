@@ -117,3 +117,6 @@
      <br>train_test_split & np.concatenate()合併陣列
 
  - [D35：regression vs. classification](Day_035_HW.ipynb)
+
+ - [D36：評估指標選定/evaluation metrics](Day_036_HW.ipynb)
+     <br>train_test_split & np.concatenate()合併陣列
