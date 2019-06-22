@@ -68,3 +68,6 @@ precision = precision_score(y_test, y_predict)
 recall = recall_score(y_test, y_predict)
 F2 = (1+pow(2,2)) * precision * recall / (pow(2,2) * precision + recall)
 ```
+
+## Reference
+[(未)【博客存档】机器学习模型评估](https://zhuanlan.zhihu.com/p/30721429)

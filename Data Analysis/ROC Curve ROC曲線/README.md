@@ -40,3 +40,4 @@ Output：
 
 ## Reference
 [Python 機器學習筆記 - 使用 ROC 曲線 (receiver operating characteristic curve) 評估分析成果](http://blog.changyy.org/2017/09/python-roc-receiver-operating.html)
+<br>[(未)ROC curves and Area Under the Curve explained (video)](https://www.dataschool.io/roc-curves-and-auc-explained/)
