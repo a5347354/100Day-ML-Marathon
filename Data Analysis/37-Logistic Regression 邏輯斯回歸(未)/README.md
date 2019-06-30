@@ -10,6 +10,12 @@
 - 分類不夠漂亮（線的切法不夠漂亮）
 <br><img src="Logistic Regression.png" width="600" alt="Logistic Regression" title="Logistic Regression">
 
+## Example
+```python
+from sklearn.linear_model import LogisticRegression
+Logistic_Reg = LogisticRegression().fit(X_train, Y_train)
+y_pred = Logistic_Reg.predit(X_test)
+```
 
 ## Reference
 [資料分析&機器學習 第3.3講：線性分類-邏輯斯回歸(Logistic Regression) 介紹](https://medium.com/jameslearningnote/資料分析-機器學習-第3-3講-線性分類-邏輯斯回歸-logistic-regression-介紹-a1a5f47017e5)

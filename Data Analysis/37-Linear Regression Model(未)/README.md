@@ -7,6 +7,20 @@
 
 ## 優點
 
+## Example
+```python
+from sklearn.linear_model import LinearRegression
+Linear_Reg = LinearRegression().fit(x_train, y_train)
+y_pred = Linear_Reg.predit(x_test)
+
+
+
+# 畫出回歸模型與實際資料的分佈
+plt.scatter(x_test, y_test,  color='black')
+plt.plot(x_test, y_pred, color='blue', linewidth=3)
+plt.show()
+```
+
 ## 案例說明
 奶奶留給我一只戒指，上面寫著需要1.35克拉鑽石的戒台Setting，為了修復這只戒指，去找了一間珠寶行詢價
 <br><img src="Setting.png" width="600" alt="Setting" title="Setting">
@@ -20,6 +34,9 @@
 <br>
 將所有鑽石及價錢標上
 <br><img src="Diamond03.png" width="450" alt="Diamond03" title="Diamond03">
+
+
+
 
 
 ## Reference

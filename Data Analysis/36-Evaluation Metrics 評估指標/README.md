@@ -1,4 +1,4 @@
-# Evaluation Metrics 評估指標
+  # Evaluation Metrics 評估指標
 ## 介紹
 評估指標用於評估模型預測的準確性，不同評估指標有不同評估準則以及面向，不同類型模型，也採用不同的評估指標，最常見是採用準確率Accuracy，在總樣本數中，可以預測到多少正確分類的樣本數
 <br><img src="Accuracy_formula.png" width="300" alt="Accuracy = 正確分類樣本數/總樣本數" title="Accuracy = 正確分類樣本數/總樣本數">

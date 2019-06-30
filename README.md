@@ -120,3 +120,7 @@
 
  - [D36：評估指標選定/evaluation metrics](Day_036_HW.ipynb)
      <br>F2_Score程式實作
+ - [D37：regression model 介紹 - 線性迴歸/羅吉斯回歸](Day_037_HW.ipynb)
+     <br>Regression
+ - [D38：regression model 程式碼撰寫](Day_038_HW.ipynb)
+     <br>Regression
