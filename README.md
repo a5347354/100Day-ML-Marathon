@@ -124,3 +124,6 @@
      <br>Regression
  - [D38：regression model 程式碼撰寫](Day_038_HW.ipynb)
      <br>Regression
+
+ - [D39：regression model 介紹 - LASSO 回歸/ Ridge 回歸](Day_039_HW.ipynb)
+         <br>LASSO 回歸/ Ridge 回歸
