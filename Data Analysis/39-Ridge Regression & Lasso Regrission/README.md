@@ -12,24 +12,32 @@
 Lasso的正規化特性，會讓模型變得較稀疏，也會讓模型變得更輕量，速度較快，準確率上較無太大差異
 
 ```python
+# Lasso
+from sklearn.linear_model import Lasso
+lasso_reg = Lasso()
+lasso_reg.fit(x_train, y_train)
+y_pred = lasso_reg.predict(x_test)
+print("Mean Squared Error：%.2f" % mean_squared_error(y_test, y_pred))
+```
+
+```python
 # Ridge
 from sklearn.linear_model import Ridge
 ridge = Ridge(fit_intercept=False)
 ridge.fit(X_train, Y_train)
 y_pred = ridge.predit(X_test)
+print("Mean Squared Error：%.2f" % mean_squared_error(y_test, y_pred))
 
 
 # 輸出最佳的alpha值，採用Cross Validation
 from sklearn.linear_model import RidgeCV
 ridge_CV = RidgeCV(fit_intercept=False)
 ridge_CV.fit(X_train, Y_train)
-print 'alpha的數值:', ridge_CV.alpha_
-print '參數的數值:', ridge_CV.coef_
+print('alpha的數值:', ridge_CV.alpha_)
+print('參數的數值:', ridge_CV.coef_)
 ```
 
-```python
 
-```
 
 ## Reference
 [脊回归（Ridge Regression）](https://blog.csdn.net/daunxx/article/details/51578787)
